@@ -19,7 +19,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: run transform_data.py   
-      run: python transform_data.python 
+      run: python transform_data.py 
   load_data_files:
     runs-on: ubuntu-latest
     steps:
