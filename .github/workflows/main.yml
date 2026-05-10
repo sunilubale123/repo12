@@ -36,4 +36,4 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: print
-      run: echo ("welcome")       
+      run: run echo ("welcome")       
